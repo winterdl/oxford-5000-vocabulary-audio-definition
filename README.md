@@ -13,7 +13,7 @@ The word lists contain the following points of data
 * Example (text)
 
 You can find  data in `/data` in formats `.pkl`, `.csv`, `.json`
-Audio (10K files, 200MB) is hosted seperately on mediafire
+Audio (10K files, 200MB) are archived in `.zip` files in `/audio`
 
 Lists in `/output` are formatted alphabetically, by CEFR rating, random and viewable in
 `.pdf` and `.html` format.
