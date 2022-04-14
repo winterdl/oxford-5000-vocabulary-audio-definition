@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+\usepackage{blindtext}
+
+\usepackage[utf8x]{inputenc}
+\usepackage{supertabular}
+\usepackage{array}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\makeatletter
+
+\author{}
+\title{Oxford 3000 grouped by CEFR}
+\date{} 
+\setlength{\footskip}{0pt}
+
+\begin{document}
+\let\clearpage\relax
+\twocolumn
+\maketitle
+\tableofcontents
+\tablehead{\textbf{Word} & \textbf{Definition}\\}
+\section{A1}
+\@input{../build/oxford_3000_A1.tex}
+\section{A2}
+\@input{../build/oxford_3000_A2.tex}
+\section{B1}
+\@input{../build/oxford_3000_B1.tex}
+\section{B2}
+\@input{../build/oxford_3000_B2.tex}
+\section{C1}
+\@input{../build/oxford_3000_C1.tex}
+\section{C2}
+\@input{../build/oxford_3000_C2.tex}
+\end{document}
